@@ -1,3 +1,15 @@
+# Project information
+site_name: Programming Guide
+site_url: https://wonder-works-studio.github.io/Programming-Guide/
+site_author: Joshua Mixon
+site_description: >-
+  Site is meant to serve as documentation for programmers at Wonder Works Studio.
+
+# Repository
+repo_name: Wonder-Works-Studio/Programming-Guide
+repo_url: https://github.com/Wonder-Works-Studio/Programming-Guide
+edit_uri: ""
+
 theme:
   name: null
   custom_dir: mkdocs-material/material
