@@ -2,32 +2,45 @@
 site_name: Programming Guide
 site_url: https://wonder-works-studio.github.io/Programming-Guide/
 site_author: Joshua Mixon
-site_description: >-
-  Site is meant to serve as documentation for programmers at Wonder Works Studio.
+site_description: Site is meant to serve as documentation for programmers at Wonder Works Studio.
 
 # Repository
 repo_name: Wonder-Works-Studio/Programming-Guide
 repo_url: https://github.com/Wonder-Works-Studio/Programming-Guide
-edit_uri: ""
-
 
 theme:
-  name: mkdocs
-  custom_dir: mkdocs-material/material
-
-  # 404 page
-  static_templates:
-    - 404.html
-
-  # Necessary for search to work properly
-  include_search_page: false
-  search_index_only: true
-
-  # Default values, taken from mkdocs_theme.yml
-  language: en
+  #logo: "img/logo.png"
+  #favicon: "img/favicon.png"
+  name: material
   font:
-    text: Roboto
+    text: Ubuntu
     code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: logo
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: light blue
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light blue
+  highlightjs: true
+  hljs_languages:
+    - lua
+
+extra:
+  #social:
+  #  - icon: fontawesome/brands/github-alt
+   #   link: https://github.com/Sleitnick/Knit
+    #  name: GitHub repository for Knit
+    #- icon: fontawesome/brands/twitter
+      #link: https://twitter.com/sleitnick
+      #name: Twitter for Knit's author
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - admonition
+  - toc:
+      permalink: true
