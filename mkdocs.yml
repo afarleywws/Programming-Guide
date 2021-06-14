@@ -28,6 +28,9 @@ theme:
   hljs_languages:
     - lua
 
+nav:
+  - Home: index.md
+  
 extra:
   #social:
   #  - icon: fontawesome/brands/github-alt
