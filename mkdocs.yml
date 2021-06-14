@@ -1,2 +1,34 @@
-site_name: My Docs
-site_url: https://example.com/
+# Project information
+site_name: Programming Guide
+site_url: https://wonder-works-studio.github.io/Programming-Guide/
+site_author: Joshua Mixon
+site_description: Site is meant to serve as documentation for programmers at Wonder Works Studio.
+
+# Repository
+repo_name: Wonder-Works-Studio/Programming-Guide
+repo_url: https://github.com/Wonder-Works-Studio/Programming-Guide
+
+theme:
+  name: null
+  custom_dir: mkdocs-material/material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Necessary for search to work properly
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+nav:
+  - Home: index.md
+  - Test: styleguide.md
