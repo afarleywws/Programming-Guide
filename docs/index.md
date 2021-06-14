@@ -1,3 +1,3 @@
 # Wonder Works Programming Guide
 
-Beep boop loop deloop
+one beep one beep
