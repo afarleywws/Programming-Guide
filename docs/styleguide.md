@@ -21,18 +21,24 @@ ______________________________
 
 #### File Names
 
-All file names need to relate directly to the file's purpose; written in `PascalCase`.
+All file names need to specifically relate to the file's purpose; written in `PascalCase`.
 
 <span style="color:red">Bad:</span>
 ```
 -- File's purpose: To handle all Interactions on the server
-File's Name: ServerPrompts
+File's Name: serverPrompts
+
+Why:
+It could possibly handle more than just proximity prompts and does not state what kind of file it is.
 ```
 
 <span style="color:green">Good:</span>
 ```
 -- File's purpose: To handle all Interactions on the server
 File's Name: InteractionService
+
+Why:
+States it is a Service, in PascalCase, while specifically stating its purpose.
 ```
 
 ______________________________
