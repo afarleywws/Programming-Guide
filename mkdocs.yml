@@ -28,7 +28,12 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+  highlights: true
+  hljs_languages:
+    - lua
 
 nav:
   - Home: index.md
-  - Test: styleguide.md
+  - Resources: resources.md
+  - Knit: knit.md
+  - Style Guide: styleguide.md
