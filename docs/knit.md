@@ -5,9 +5,11 @@
 
 #### Why Knit
 
-Knit luckily is not a strict structured framework and more of a modular library. Knit is designed in a way that lets the developers decide their own structure while still accessing all of the same functionality and benefits it has to offer.
+Luckily, Knit is not a strict structured framework; it’s more of a modular library. Knit is designed in a way that lets the
+developers decide their own structure while still accessing all the same functionality and benefits it has to offer.
 
-Knit can easily be added to pre-existing code or start the creation of an application that is future-proof when it comes to new updates and features.
+Knit can easily be added to pre-existing code or used to start an application
+that is future-proof when it comes to new updates and features.
 
 
 #### How Knit Works
@@ -148,7 +150,8 @@ print("The rest of the script is not waiting on this result! Wooo")
 
 Lets group these together for simplicity. 
 
-`Signal` and `RemoteSignal` are wrappers for BindableEvents and RemoteEvents respectively. They provide more functionality for developers to take advantage which saves us time in the long run. 
+`Signal` and `RemoteSignal` are wrappers for BindableEvents and RemoteEvents respectively. They provide more functionality for developers to take advantage of, which
+saves us time in the long run.
 
 `RemoteProperty` are in a way similar to RemoteEvents but instead expose a read-only `Value` to the client that is updated whenever it is set. The client can `:Get()` this Value at any point and also setup a `.Changed` connection to know as soon as the Value object is changed.
 

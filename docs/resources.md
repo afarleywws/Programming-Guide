@@ -10,7 +10,8 @@ ______________________________
 
 As of July 2021, Wonder Works Studio is currently using the [Knit Framework](https://sleitnick.github.io/Knit/) as our bread and butter for all of our games on the Roblox platform. 
 
-Knit luckily is not a strict structured framework and more of a modular library. Knit is designed in a way that lets the developers decide their own structure while still accessing all of the same functionality and benefits it has to offer. 
+Luckily, Knit is not a strict structured framework; it’s more of a modular library. Knit is designed in a way that lets the
+developers decide their own structure while still accessing all the same functionality and benefits it has to offer.
 
 While we may design our own framework in the future, it would end up very similar in design to the way Knit functions now which is perfect for our current uses. 
 
@@ -32,14 +33,16 @@ Feel free to make any modifications to adapt on a per-project basis. This could 
 ______________________________
 
 `
-As with everything in this guide, we are only glancing at the surface here with the introduction of these libraries. You will have to test out using these libraries yourself and really play around with how things operate and function. There are plenty of resources at your disposal and your coworkers will be more than willing to assist you with any questions you may have.
+This guide is meant to serve as a basic introduction. You will need to play around with these libraries yourself to really learn how things
+operate and function. There are plenty of resources at your disposal, and your coworkers are more than willing to assist you with any
+questions you may have.
 `
 
 #### Roact
 
 Roact is a Roblox Lua UI Library which serves the purpose of handling the creation and usage of the player's user interface. Since Roact was built to be very similar to Facebook's React Library, it has a lot of the same principles and functionality that makes it an industry standard. 
 
-If you're new to Roact, I would look at this [devforum guide](https://devforum.roblox.com/t/roact-the-ultimate-ui-framework/796618) to begin the learning process. As you will soon learn, using Roact takes **much longer** to implement depending on the project. So why do we use it? The perks of Roact become clear as your project takes shape. Roact helps you define what your UI should be doing compared to how it should do it. This means less unknown bugs, more manageable code, and easy reusability. The perks become even more transparent when combined with Rodux.
+If you're new to Roact, I would look at this [devforum guide](https://devforum.roblox.com/t/roact-the-ultimate-ui-framework/796618) to begin the learning process. As you will soon learn, using Roact takes **much longer** to implement depending on the project. So why do we use it? The perks of Roact become clear as your project takes shape. Roact directly specifies what your interface will be doing compoared to only telling it how it should work. This means less unknown bugs, more manageable code, and easy reusability. The perks become even more transparent when combined with Rodux.
 
 
 [Roact](https://roblox.github.io/roact/)
@@ -47,7 +50,7 @@ If you're new to Roact, I would look at this [devforum guide](https://devforum.r
 
 #### Rodux
 
-Similar to how Roact was formed, Rodux is based off it's predecessor Redux with the same purpose in mind; to be the ideal state library. As the word 'state' is defined, we can declare the condition of our application at a specific time and that will never change unless we change it. This means one source of truth - it's state. If a round-based game is in intermission then it's state would be set to intermission. The rest of the game's code would have no way to define it's own 'truth'.
+Similar to how Roact was formed, Rodux is based off its predecessor Redux with the same purpose in mind; to be the ideal state library. As the word 'state' is defined, we can declare the condition of our application at a specific time and that will never change unless we change it. This means one source of truth - its state. If a round-based game is in intermission then its state would be set to intermission. The rest of the game's code would have no way to define it's own 'truth'.
 
 Obviously with a medium to large project you may have several states. Is a specific UI window open? What tool is the player holding? What location is the player in? Rodux tackles this by creating 'The Store'. 
 
