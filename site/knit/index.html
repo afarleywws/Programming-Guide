@@ -464,8 +464,10 @@
                 <h1 id="knit-framework">Knit Framework</h1>
 <p><a href="https://sleitnick.github.io/Knit/">Knit Framework</a></p>
 <h4 id="why-knit">Why Knit</h4>
-<p>Knit luckily is not a strict structured framework and more of a modular library. Knit is designed in a way that lets the developers decide their own structure while still accessing all of the same functionality and benefits it has to offer.</p>
-<p>Knit can easily be added to pre-existing code or start the creation of an application that is future-proof when it comes to new updates and features.</p>
+<p>Luckily, Knit is not a strict structured framework; it’s more of a modular library. Knit is designed in a way that lets the
+developers decide their own structure while still accessing all the same functionality and benefits it has to offer.</p>
+<p>Knit can easily be added to pre-existing code or used to start an application
+that is future-proof when it comes to new updates and features.</p>
 <h4 id="how-knit-works">How Knit Works</h4>
 <table>
 <thead>
@@ -585,7 +587,8 @@ print(&quot;The rest of the script is not waiting on this result! Wooo&quot;)
 </code></pre>
 <h5 id="signal-and-remotesignal-and-remoteproperty">Signal and RemoteSignal and RemoteProperty</h5>
 <p>Lets group these together for simplicity. </p>
-<p><code>Signal</code> and <code>RemoteSignal</code> are wrappers for BindableEvents and RemoteEvents respectively. They provide more functionality for developers to take advantage which saves us time in the long run. </p>
+<p><code>Signal</code> and <code>RemoteSignal</code> are wrappers for BindableEvents and RemoteEvents respectively. They provide more functionality for developers to take advantage of, which
+saves us time in the long run.</p>
 <p><code>RemoteProperty</code> are in a way similar to RemoteEvents but instead expose a read-only <code>Value</code> to the client that is updated whenever it is set. The client can <code>:Get()</code> this Value at any point and also setup a <code>.Changed</code> connection to know as soon as the Value object is changed.</p>
 <p>All three of these should be used instead of BindableEvents. and RemoteEvents. If you're wondering "what about RemoteFunctions?" refer back to the <code>Services</code> portion of this page.</p>
 <p><a href="https://sleitnick.github.io/Knit/util/signal/">Signal</a></p>

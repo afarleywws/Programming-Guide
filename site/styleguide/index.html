@@ -581,7 +581,21 @@ From readability to agreed upon best practices; everyone needs to be on the same
 <hr />
 <h2 id="structure">Structure</h2>
 <h4 id="file-names">File Names</h4>
-<p>All file names need to relate directly to the file's purpose.</p>
+<p>All file names need to specifically relate to the file's purpose; written in <code>PascalCase</code>.</p>
+<p><span style="color:red">Bad:</span></p>
+<pre><code>-- File's purpose: To handle all Interactions on the server
+File's Name: serverPrompts
+
+Why:
+It could possibly handle more than just proximity prompts and does not state what kind of file it is.
+</code></pre>
+<p><span style="color:green">Good:</span></p>
+<pre><code>-- File's purpose: To handle all Interactions on the server
+File's Name: InteractionService
+
+Why:
+States it is a Service, in PascalCase, while specifically stating its purpose.
+</code></pre>
 <hr />
 <h4 id="file-purpose">File Purpose</h4>
 <p>Every file within your application should have a single main purpose. CurrencyService should relate only to currency. DataService should relate only to data. </p>
